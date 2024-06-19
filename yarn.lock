@@ -7783,7 +7783,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"nuxt-icon@npm:^0.6.10":
+"nuxt-icon@npm:0.6.10":
   version: 0.6.10
   resolution: "nuxt-icon@npm:0.6.10"
   dependencies:
@@ -7792,6 +7792,18 @@ __metadata:
     "@nuxt/devtools-kit": "npm:^1.1.1"
     "@nuxt/kit": "npm:^3.11.1"
   checksum: 10c0/948be6855be13f687c027943668af8d0aa804803d5add768a5dbbd3296fa49eba0185a2e0049c24fd0a8903632e25703de8d7f78c8326678bc21a059edada7b0
+  languageName: node
+  linkType: hard
+
+"nuxt-icon@patch:nuxt-icon@npm%3A0.6.10#~/.yarn/patches/nuxt-icon-npm-0.6.10-db923a779e.patch":
+  version: 0.6.10
+  resolution: "nuxt-icon@patch:nuxt-icon@npm%3A0.6.10#~/.yarn/patches/nuxt-icon-npm-0.6.10-db923a779e.patch::version=0.6.10&hash=bc7ded"
+  dependencies:
+    "@iconify/collections": "npm:^1.0.406"
+    "@iconify/vue": "npm:^4.1.1"
+    "@nuxt/devtools-kit": "npm:^1.1.1"
+    "@nuxt/kit": "npm:^3.11.1"
+  checksum: 10c0/90cfa21a324e8ef06a04f80431a8aaa541db3e9cf1dc716b95284b680efae7da206f75261ab69067fa9889463ccd118070ad94a5eb5dcc376243a285c4fa753a
   languageName: node
   linkType: hard
 
@@ -11254,8 +11266,8 @@ __metadata:
   linkType: hard
 
 "ws@npm:^8.16.0":
-  version: 8.16.0
-  resolution: "ws@npm:8.16.0"
+  version: 8.17.1
+  resolution: "ws@npm:8.17.1"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ">=5.0.2"
@@ -11264,7 +11276,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 10c0/a7783bb421c648b1e622b423409cb2a58ac5839521d2f689e84bc9dc41d59379c692dd405b15a997ea1d4c0c2e5314ad707332d0c558f15232d2bc07c0b4618a
+  checksum: 10c0/f4a49064afae4500be772abdc2211c8518f39e1c959640457dcee15d4488628620625c783902a52af2dd02f68558da2868fd06e6fd0e67ebcd09e6881b1b5bfe
   languageName: node
   linkType: hard
 
