@@ -1,8 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
+import process from 'node:process'
+
 const routerBase = process.env.GH_PAGES ?? '/'
 
 export default defineNuxtConfig({
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image', '@pinia/nuxt'],
+
+  devtools: { enabled: true },
   app: {
     baseURL: routerBase,
     buildAssetsDir: 'assets',
@@ -21,17 +26,27 @@ export default defineNuxtConfig({
     },
   },
 
-  devtools: { enabled: true },
-
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image', '@pinia/nuxt'],
+  future: {
+    compatibilityVersion: 4,
+  },
 
   experimental: {
     payloadExtraction: false,
   },
 
+  compatibilityDate: '2024-10-19',
+
   typescript: {
     strict: true,
     typeCheck: true,
+  },
+
+  eslint: {
+    checker: true,
+    config: {
+      standalone: false,
+      stylistic: true,
+    },
   },
 
   image: {
@@ -40,15 +55,5 @@ export default defineNuxtConfig({
     ipx: {
       maxAge: 31536000,
     },
-  },
-
-  colorMode: {
-    classSuffix: '',
-    preference: 'light',
-    dataValue: 'theme',
-  },
-
-  eslint: {
-    checker: true,
   },
 })
