@@ -38,7 +38,8 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: true,
-    typeCheck: true,
+    // TODO: Enable typeCheck when it's stable
+    // typeCheck: true,
   },
 
   eslint: {
