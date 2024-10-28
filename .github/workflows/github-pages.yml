@@ -26,6 +26,11 @@ jobs:
           node-version: '20'
           cache: ${{ steps.detect-package-manager.outputs.manager }}
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        with:
+          static_site_generator: nuxt
+
       - name: Restore cache
         uses: actions/cache@v4
         with:
@@ -40,7 +45,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn deploy:gh
+        run: yarn run generate
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
