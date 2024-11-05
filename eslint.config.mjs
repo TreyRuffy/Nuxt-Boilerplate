@@ -8,5 +8,6 @@ export default withNuxt(
       html: true,
       markdown: 'prettier',
     },
+    ignores: ['.github'],
   }),
 )

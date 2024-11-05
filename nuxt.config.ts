@@ -5,7 +5,7 @@ import process from 'node:process'
 const routerBase = process.env.GH_PAGES ?? '/'
 
 export default defineNuxtConfig({
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image', '@pinia/nuxt'],
+  modules: ['@nuxt/ui', '@nuxt/eslint', '@nuxt/image', '@pinia/nuxt'],
 
   devtools: { enabled: true },
   app: {
@@ -20,8 +20,6 @@ export default defineNuxtConfig({
       meta: [
         { name: 'author', content: 'AUTHOR NAME' },
         { name: 'description', content: 'PROJECT DESCRIPTION' },
-        { name: 'theme-color', media: '(prefers-color-scheme: light)', content: '#ffffff' },
-        { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#000000' },
       ],
     },
   },
@@ -34,7 +32,7 @@ export default defineNuxtConfig({
     payloadExtraction: false,
   },
 
-  compatibilityDate: '2024-10-19',
+  compatibilityDate: '2024-11-05',
 
   typescript: {
     strict: true,

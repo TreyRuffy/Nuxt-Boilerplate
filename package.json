@@ -1,7 +1,9 @@
 {
   "name": "nuxt-app",
-  "private": true,
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -18,18 +20,18 @@
   "dependencies": {
     "@nuxt/image": "^1.8.1",
     "@nuxt/ui": "next",
-    "@pinia/nuxt": "^0.5.5",
-    "nuxt": "^3.13.2",
-    "pinia": "^2.2.4",
+    "@pinia/nuxt": "^0.7.0",
+    "nuxt": "^3.14.0",
+    "pinia": "^2.2.6",
     "vite": "^5.4.10",
     "vue": "^3.5.12"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
-    "@nuxt/eslint": "^0.6.0",
+    "@nuxt/eslint": "^0.6.1",
     "@tailwindcss/typography": "^0.5.15",
-    "@types/node": "^22.8.1",
-    "eslint": "^9.13.0",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.14.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-format": "^0.1.2",
     "eslint-plugin-prettier": "^5.2.1",
@@ -38,8 +40,6 @@
     "tailwindcss": "next",
     "typescript": "^5.6.3",
     "vite-plugin-eslint2": "^5.0.1",
-    "vue-tsc": "^2.1.8"
-  },
-  "version": "0.0.0",
-  "packageManager": "yarn@4.5.1+sha512.341db9396b6e289fecc30cd7ab3af65060e05ebff4b3b47547b278b9e67b08f485ecd8c79006b405446262142c7a38154445ef7f17c1d5d1de7d90bf9ce7054d"
+    "vue-tsc": "^2.1.10"
+  }
 }
