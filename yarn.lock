@@ -8938,7 +8938,7 @@ __metadata:
     happy-dom: "npm:^15.11.0"
     nuxt: "npm:^3.14.159"
     pinia: "npm:^2.2.6"
-    playwright-core: "npm:^1.48.2"
+    playwright-core: "npm:^1.49.0"
     prettier: "npm:^3.3.3"
     prettier-plugin-tailwindcss: "npm:^0.6.8"
     typescript: "npm:^5.6.3"
@@ -9467,12 +9467,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:^1.48.2":
-  version: 1.48.2
-  resolution: "playwright-core@npm:1.48.2"
+"playwright-core@npm:^1.49.0":
+  version: 1.49.0
+  resolution: "playwright-core@npm:1.49.0"
   bin:
     playwright-core: cli.js
-  checksum: 10c0/511da53d9df01fec5e5798915c68e7d1574890a504d1aae05430bf538d0080efa8db86e3dafdcd450f084ce7622f6bbede23ca52e798bfc4c3b3ea8da52a51f5
+  checksum: 10c0/22c1a72fabdcc87bd1cd4d40a032d2c5b94cf94ba7484dc182048c3fa1c8ec26180b559d8cac4ca9870e8fd6bdf5ef9d9f54e7a31fd60d67d098fcffc5e4253b
   languageName: node
   linkType: hard
 
