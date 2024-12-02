@@ -1121,12 +1121,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify-json/lucide@npm:^1.2.12":
-  version: 1.2.12
-  resolution: "@iconify-json/lucide@npm:1.2.12"
+"@iconify-json/lucide@npm:^1.2.17":
+  version: 1.2.17
+  resolution: "@iconify-json/lucide@npm:1.2.17"
   dependencies:
     "@iconify/types": "npm:*"
-  checksum: 10c0/7dbd9c674f775f63c13d6b3c81517e96979d1f01951250c9f09cede7af280092d795d4d99869ff2c34b1f183ac428bf74f51aed6a0d72f665c18e92e7f056c40
+  checksum: 10c0/034926d6dfdd6da6c3e665165aff7786b4cc03e18e4d4a1ea9517eedae279de4f96c935faf496ab4d9089db9fcb3bd15041ebd8831e76da8a1fc9b05b4176be6
   languageName: node
   linkType: hard
 
@@ -8920,7 +8920,7 @@ __metadata:
   resolution: "nuxt-app@workspace:."
   dependencies:
     "@antfu/eslint-config": "npm:^3.8.0"
-    "@iconify-json/lucide": "npm:^1.2.12"
+    "@iconify-json/lucide": "npm:^1.2.17"
     "@nuxt/eslint": "npm:^0.6.1"
     "@nuxt/image": "npm:^1.8.1"
     "@nuxt/test-utils": "npm:^3.14.4"
