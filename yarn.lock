@@ -6580,14 +6580,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"happy-dom@npm:^15.11.0":
-  version: 15.11.0
-  resolution: "happy-dom@npm:15.11.0"
+"happy-dom@npm:^15.11.7":
+  version: 15.11.7
+  resolution: "happy-dom@npm:15.11.7"
   dependencies:
     entities: "npm:^4.5.0"
     webidl-conversions: "npm:^7.0.0"
     whatwg-mimetype: "npm:^3.0.0"
-  checksum: 10c0/ff9bb6e0cb257ebb8df8533b830aaff90f6e079adeb90767e89a9b10d6c181e7c41c90b9f716b9197ac9d353ab3b5ab726419e58c14ef740a6fcd7a3ecf0cd1f
+  checksum: 10c0/22b08cac20192b08edf2e9c857ceeda8333a3301c4b5965a9550787b00db60d6d107c726390bd45a35305cd12ab086abd656bf957a408be0fcdc9fcd389f1973
   languageName: node
   linkType: hard
 
@@ -8935,7 +8935,7 @@ __metadata:
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-format: "npm:^0.1.2"
     eslint-plugin-prettier: "npm:^5.2.1"
-    happy-dom: "npm:^15.11.0"
+    happy-dom: "npm:^15.11.7"
     nuxt: "npm:^3.14.159"
     pinia: "npm:^2.2.6"
     playwright-core: "npm:^1.48.2"
