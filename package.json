@@ -13,7 +13,7 @@
     "test": "vitest",
     "coverage": "vitest run --coverage",
     "lint": "eslint .",
-    "deploy:gh": "NUXT_APP_BASE_URL=/GITHUB_PAGES_REPO/ yarn build --preset github_pages",
+    "deploy:gh": "NUXT_APP_BASE_URL=/GITHUB_PAGES_REPO/ yarn generate",
     "deploy:cf": "yarn build --preset cloudflare_pages",
     "typecheck": "tsc --noEmit"
   },

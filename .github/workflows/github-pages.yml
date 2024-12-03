@@ -45,7 +45,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn run generate
+        run: yarn deploy:gh
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
