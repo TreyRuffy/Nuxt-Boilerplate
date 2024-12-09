@@ -8957,7 +8957,7 @@ __metadata:
     pinia: "npm:^2.2.8"
     playwright-core: "npm:^1.49.0"
     tailwind-variants: "npm:^0.3.0"
-    tailwindcss: "npm:4.0.0-alpha.33"
+    tailwindcss: "npm:4.0.0-beta.6"
     typescript: "npm:5.6.3"
     vite-plugin-eslint2: "npm:^5.0.3"
     vitest: "npm:^2.1.8"
@@ -11105,17 +11105,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:4.0.0-alpha.33":
-  version: 4.0.0-alpha.33
-  resolution: "tailwindcss@npm:4.0.0-alpha.33"
-  checksum: 10c0/c8fa89f914a2853fafe014ec53fd67b34e868f7002a3590c933a58e255c299e21d9ce0b91b7dc021aff59b25eee50a98d6a0bdfab76cabff4f40621c49c48f34
-  languageName: node
-  linkType: hard
-
 "tailwindcss@npm:4.0.0-alpha.34":
   version: 4.0.0-alpha.34
   resolution: "tailwindcss@npm:4.0.0-alpha.34"
   checksum: 10c0/946bce0ebc19e1eb5d5531af0da0dfc892fc786c97f438cfe83e026fa331e4a39be9b28192304f6bc4941b5799cab709582525c98ff580108fbb3d4fbb73b173
+  languageName: node
+  linkType: hard
+
+"tailwindcss@npm:4.0.0-beta.6":
+  version: 4.0.0-beta.6
+  resolution: "tailwindcss@npm:4.0.0-beta.6"
+  checksum: 10c0/14f4f599efb3bfb4cb5a3ea60fb803f471e9984f98cfdca994e65b99a475822d17d89950f0cbac04dffb46de87e6ae6bace00854f6ef6faca98abfb2cfc80c6a
   languageName: node
   linkType: hard
 
